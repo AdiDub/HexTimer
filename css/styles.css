@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 1rem;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav h1 {
+  float: inline-start;
+}
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: aqua;
+}
+
+.container {
+  padding-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+}
+
+ ul li {
+  display: inline-block;
+  padding: 0 2em 0 2em;
+  font-size: 2em;
+  color: aqua;
+}
+
+ul li .days {
+  font-size: 5em;
+  text-shadow: 0 0 5px #FF0000, 0 0 50px #0000FF;
+  border-color: black;
+}
+ul li .hours {
+  font-size: 5em;
+  text-shadow: 0 0 5px #FF0000, 0 0 50px #0000FF;
+}
+ul li .minutes {
+  font-size: 5em;
+  text-shadow: 0 0 5px #FF0000, 0 0 50px #0000FF;
+}
+ul li .seconds {
+  font-size: 5em;
+  text-shadow: 0 0 5px #FF0000, 0 0 50px #0000FF;
+}
+.hms {
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  text-shadow: 0 0 5px #f70707ec, 0 0 10px #00d9ff;
+}
+
+.second-part {
+  margin: 50px auto auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 5px 10px;
+  display: flex;
+  float: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+}
